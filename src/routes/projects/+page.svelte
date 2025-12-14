@@ -1,7 +1,14 @@
-<div class="cards-container"></div>
+<script lang="ts">
+  import ProjectCard from '$lib/components/ProjectCard/ProjectCard.svelte';
+</script>
 
-<p class="comment">
-    And yet there is always room for more. No matter how far you’ve come, there
-    is always more to discover. This is just the beginning... Of many great
-    things yet to come.
+<div class="cardContainer pt-[30vh] pb-[10vh] flex flex-row gap-4">
+  <ProjectCard name="matura_prepper" imgSrc="null" alt="image" />
+  <ProjectCard name="polhim.com" imgSrc="null" alt="image" />
+  <ProjectCard name="PostgresQL" imgSrc="null" alt="image" />
+</div>
+<p class="comment text-2xl w-min min-w-200">
+  And yet there is always room for more. No matter how far you’ve come, there is
+  always more to discover. This is just the beginning...<br /><br /> Of many great
+  things yet to come.
 </p>
