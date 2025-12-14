@@ -7,8 +7,8 @@
 </script>
 
 <div class="pt-6 flex gap-9 text-xl font-['Inter']">
-    <p>__HOME</p>
-    <p class="pl-46">_PROJECTS(TODO)</p>
-    <p class="pl-80">ABOUT</p>
+    <a href="/">__HOME</a>
+    <a href="/projects" class="pl-46">_PROJECTS(TODO)</a>
+    <a href="/about" class="pl-80">ABOUT</a>
     <p class="ml-auto">LOCAL_TIME: {d}</p>
 </div>
