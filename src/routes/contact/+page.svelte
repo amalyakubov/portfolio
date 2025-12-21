@@ -21,7 +21,7 @@
         <div class="flex flex-row pt-2 h-mini border-black/50">
             <label
                 for="message"
-                class="text-md min-w-max content-center self-start pr-4 text-md w-30"
+                class="text-md min-w-max content-center self-start pr-4 text-md w-min"
                 >Message:</label
             >
             <textarea
