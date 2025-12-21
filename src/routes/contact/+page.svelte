@@ -15,7 +15,7 @@
                 autocomplete="work email"
                 required
                 placeholder="your@gmail.com"
-                class="outline-none max-w-full px-2 placeholder:text-black/70 text-black/70"
+                class="outline-none max-w-full px-2 placeholder:text-black/70 text-black/70 w-full"
             />
         </div>
         <div class="flex flex-row pt-2 h-mini border-black/50">
