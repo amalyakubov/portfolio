@@ -1,5 +1,21 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 p {
-  font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    background-color: var(--color-light-bg);
+    letter-spacing: 0.01ch;
+    font-family:  'Inter', sans-serif;
+    
+}
+
+
+@theme {
+    --color-light-bg: #fcfcfa;
+}
+
+@utility no-scrollbar {
+    @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
 }
