@@ -1,9 +1,26 @@
+<script lang="ts">
+  import { enhance } from "$app/forms";
+  import type { ActionData } from "./$types";
+
+  export let form: ActionData;
+</script>
+
 <div class="flex flex-1 flex-col h-min pt-20 pb-60">
   <p class="text-5xl pb-12">Contact me</p>
+
+  <!-- {#if form?.success}
+    <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative max-w-3xl mb-6" role="alert">
+      <strong class="font-bold">Success!</strong>
+      <span class="block sm:inline"> Your message has been sent.</span>
+    </div>
+  {/if} -->
+
   <form
     class="bg-[#ffff] px-7 py-10 pb-7 flex flex-col max-w-3xl border border-black/20"
     id="contact_form"
     data-netlify="true"
+    method="POST"
+    use:enhance
   >
     <div class="flex flex-row border-black/50 h-min pb-2">
       <label
@@ -14,6 +31,7 @@
       <input
         type="email"
         id="email"
+        name="email"
         autocomplete="work email"
         required
         placeholder="your@gmail.com"
@@ -28,15 +46,17 @@
       >
       <textarea
         id="message"
+        name="message"
         rows="10"
         cols="5"
         class="pl-2 pr-8 pb-4 outline-none transition-all duration-300 overflow-y-visible resize-none min-h-full text-black/70 no-scrollbar overflow-x-auto flex-1 rounded-md text-left"
-        >... your message</textarea
-      >
+        placeholder="... your message"
+      ></textarea>
     </div>
     <div class="pt-12">
       <button
         form="contact_form"
+        type="submit"
         title="Submit"
         class="group flex flex-row items-center gap-1 underline underline-offset-8 decoration-2 text-black text-md transition-all duration-300 hover:text-black/70 cursor-pointer w-max"
       >
