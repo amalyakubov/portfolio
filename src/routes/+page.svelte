@@ -11,7 +11,7 @@
   </div>
 </div>
 <p class="text-xl pt-8 min-w-3xl w-min">
-  Hey, I’m Amal, a full stack developer and an aspiring ML researcher and a girl
+  Hey, I’m Amal, a full stack developer and an aspiring ML researcher and a guy
   who likes cool stuff and building really cool stuff. <br /> <br /> Based in the
   best city of Europe: Warsaw, Poland.
 </p>
