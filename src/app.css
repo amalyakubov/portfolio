@@ -8,12 +8,13 @@ p {
     background-color: var(--color-light-bg);
     letter-spacing: 0.01ch;
     font-family:  'Inter', sans-serif;
-    
+
 }
 
 
 @theme {
     --color-light-bg: #fcfcfa;
+    --color-dark-bg: #0B090A;
 }
 
 @utility no-scrollbar {
