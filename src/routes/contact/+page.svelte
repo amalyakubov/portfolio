@@ -1,4 +1,5 @@
-<div class="flex flex-1 flex-col justify-between">
+<div class="flex flex-1 flex-col h-min py-80">
+  <p class="text-5xl pb-12">Contact me</p>
   <form
     class="bg-[#ffff] px-12 py-10 flex flex-col max-w-3xl border border-black/20"
     id="contact_form"
