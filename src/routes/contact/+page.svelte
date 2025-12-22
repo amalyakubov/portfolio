@@ -18,6 +18,7 @@
   <form
     class="bg-[#ffff] px-7 py-10 pb-7 flex flex-col max-w-3xl border border-black/20"
     id="contact_form"
+    name="contact_form"
     data-netlify="true"
     method="POST"
     use:enhance
