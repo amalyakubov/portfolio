@@ -23,6 +23,7 @@
     method="POST"
     use:enhance
   >
+    <input type="hidden" name="form-name" value="netlify-form-example" />
     <div class="flex flex-row border-black/50 h-min pb-2">
       <label
         for="email"
