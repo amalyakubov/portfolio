@@ -47,7 +47,6 @@
         </div>
         <div class="pt-12">
             <button
-                form="contact_form"
                 type="submit"
                 title="Submit"
                 class="group flex flex-row items-center gap-1 underline underline-offset-8 decoration-2 text-black text-md transition-all duration-300 hover:text-black/70 cursor-pointer w-max"
