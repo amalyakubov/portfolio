@@ -1,11 +1,3 @@
-<script lang="ts">
-    import { enhance } from "$app/forms";
-    import type { ActionData } from "./$types";
-
-    export let form: ActionData;
-    export const prerender = true;
-</script>
-
 <div class="flex flex-1 flex-col h-min pt-20 pb-60">
     <p class="text-5xl pb-12">Contact me</p>
 
@@ -22,7 +14,6 @@
         name="contact_form"
         data-netlify="true"
         method="POST"
-        use:enhance
     >
         <input type="hidden" name="form-name" value="netlify-form-example" />
         <div class="flex flex-row border-black/50 h-min pb-2">
@@ -33,7 +24,6 @@
             >
             <input
                 type="email"
-                id="email"
                 name="email"
                 autocomplete="work email"
                 required
@@ -48,7 +38,6 @@
                 >Message:</label
             >
             <textarea
-                id="message"
                 name="message"
                 rows="10"
                 cols="5"
