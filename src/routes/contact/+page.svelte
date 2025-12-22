@@ -1,8 +1,9 @@
 <div class="flex flex-1 flex-col h-min pt-20 pb-60">
   <p class="text-5xl pb-12">Contact me</p>
   <form
-    class="bg-[#ffff] px-12 py-10 flex flex-col max-w-3xl border border-black/20"
+    class="bg-[#ffff] px-7 py-10 pb-7 flex flex-col max-w-3xl border border-black/20"
     id="contact_form"
+    data-netlify="true"
   >
     <div class="flex flex-row border-black/50 h-min pb-2">
       <label
@@ -39,7 +40,7 @@
         title="Submit"
         class="group flex flex-row items-center gap-1 underline underline-offset-8 decoration-2 text-black text-md transition-all duration-300 hover:text-black/70 cursor-pointer w-max"
       >
-        <span>Send</span>
+        <span class="text-xl">Send</span>
         <div class="relative overflow-hidden w-5 h-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
