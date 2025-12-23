@@ -1,13 +1,6 @@
 <div class="flex flex-1 flex-col h-min pt-20 pb-60">
     <p class="text-5xl pb-12">Contact me</p>
 
-    <!-- {#if form?.success}
-    <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative max-w-3xl mb-6" role="alert">
-      <strong class="font-bold">Success!</strong>
-      <span class="block sm:inline"> Your message has been sent.</span>
-    </div>
-  {/if} -->
-
     <form
         class="bg-[#ffff] px-7 py-10 pb-7 flex flex-col max-w-3xl border border-black/20"
         id="contact_form"
