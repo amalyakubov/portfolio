@@ -4,7 +4,7 @@
 </script>
 
 <div class="pt-6 sm:pt-10 lg:pt-14">
-  <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">
+  <h1 class="page-title text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">
     Things i've done
   </h1>
 

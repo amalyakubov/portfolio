@@ -1,5 +1,5 @@
 <div class="flex flex-1 flex-col h-min pt-6 sm:pt-10 lg:pt-14 pb-10 sm:pb-16 lg:pb-24">
-    <p class="text-2xl sm:text-3xl lg:text-4xl pb-6 sm:pb-8">Contact me</p>
+    <h1 class="page-title text-2xl sm:text-3xl lg:text-4xl pb-6 sm:pb-8">Contact me</h1>
 
     <form
         class="bg-[#ffff] px-4 sm:px-6 py-5 sm:py-8 pb-5 sm:pb-6 flex flex-col w-full max-w-full sm:max-w-lg lg:max-w-2xl border border-black/20"
