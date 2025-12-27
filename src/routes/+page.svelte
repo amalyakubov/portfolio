@@ -7,7 +7,7 @@
 >
   <div class="flex flex-col justify-center order-2 md:order-1">
     <h1
-      class="text-[15vw] md:text-[8vw] font-medium text-black tracking-tighter leading-[0.95]"
+      class="text-[15vw] md:text-[7vw] tracking-tighter font-medium text-black leading-[0.95]"
     >
       Amal<br />Yakubov
     </h1>
@@ -21,8 +21,12 @@
       </p>
     </div>
   </div>
-  <div class="flex items-center justify-center md:justify-end order-1 md:order-2">
-    <div class="bg-black w-full max-w-sm md:max-w-none aspect-4/3 flex items-center justify-center">
+  <div
+    class="flex items-center justify-center md:justify-end order-1 md:order-2"
+  >
+    <div
+      class="bg-black w-full max-w-sm md:max-w-none aspect-4/3 flex items-center justify-center"
+    >
       <video
         autoplay
         muted
