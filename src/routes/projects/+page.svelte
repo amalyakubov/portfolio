@@ -3,19 +3,23 @@
   import polhimHero from "$lib/assets/polhim.png";
 </script>
 
-<p class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl pt-8 sm:pt-12">Things i've done</p>
-<div class="cardContainer pt-6 sm:pt-10 lg:pt-14 pb-10 sm:pb-16 lg:pb-24 flex flex-col sm:flex-row flex-wrap gap-6 sm:gap-8 lg:gap-10">
-  <!-- <ProjectCard name="matura_prepper" imgSrc="null" alt="image" /> -->
-  <ProjectCard
-    name="polhim.com"
-    imgSrc={polhimHero}
-    alt="image"
-    text="A customer-facing commercial landing page for a cotton bag company based in Warsaw, Poland. "
-  />
-  <!-- <ProjectCard name="PostgresQL" imgSrc="null" alt="image" /> -->
+<div class="pt-6 sm:pt-10 lg:pt-14">
+  <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">
+    Things i've done
+  </h1>
+
+  <div class="pt-8 sm:pt-12 lg:pt-16 pb-10 sm:pb-16 lg:pb-24 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10">
+    <ProjectCard
+      name="polhim.com"
+      imgSrc={polhimHero}
+      alt="Polhim website screenshot"
+      text="A customer-facing commercial landing page for a cotton bag company based in Warsaw, Poland."
+    />
+  </div>
+
+  <p class="text-sm sm:text-base lg:text-lg max-w-lg lg:max-w-xl text-black/70 pb-8">
+    And yet there is always room for more. No matter how far you've come, there is
+    always more to discover. This is just the beginning...<br /><br />Of many great
+    things yet to come.
+  </p>
 </div>
-<p class="comment text-sm sm:text-base lg:text-lg w-full max-w-lg lg:max-w-xl">
-  And yet there is always room for more. No matter how far you've come, there is
-  always more to discover. This is just the beginning...<br /><br /> Of many great
-  things yet to come.
-</p>
