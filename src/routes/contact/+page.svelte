@@ -1,18 +1,18 @@
-<div class="flex flex-1 flex-col h-min pt-20 pb-60">
-    <p class="text-5xl pb-12">Contact me</p>
+<div class="flex flex-1 flex-col h-min pt-6 sm:pt-10 lg:pt-14 pb-10 sm:pb-16 lg:pb-24">
+    <p class="text-2xl sm:text-3xl lg:text-4xl pb-6 sm:pb-8">Contact me</p>
 
     <form
-        class="bg-[#ffff] px-7 py-10 pb-7 flex flex-col max-w-3xl border border-black/20"
+        class="bg-[#ffff] px-4 sm:px-6 py-5 sm:py-8 pb-5 sm:pb-6 flex flex-col w-full max-w-full sm:max-w-lg lg:max-w-2xl border border-black/20"
         id="contact_form"
         name="contact_form"
         data-netlify="true"
         method="POST"
     >
         <input type="hidden" name="form-name" value="contact_form" />
-        <div class="flex flex-row border-black/50 h-min pb-2">
+        <div class="flex flex-col sm:flex-row border-black/50 h-min pb-2">
             <label
                 for="email"
-                class="text-md min-w-max content-center pr-4 text-md w-30"
+                class="text-md min-w-max content-center pr-4 text-md w-full sm:w-30 pb-1 sm:pb-0"
                 >Your E-mail:</label
             >
             <input
@@ -24,10 +24,10 @@
                 class="outline-none max-w-full px-2 placeholder:text-black/70 text-black/70 w-full"
             />
         </div>
-        <div class="flex flex-row pt-2 h-mini border-black/50">
+        <div class="flex flex-col sm:flex-row pt-2 h-mini border-black/50">
             <label
                 for="message"
-                class="text-md min-w-max content-center self-start pr-4 text-md w-min"
+                class="text-md min-w-max content-center self-start pr-4 text-md w-full sm:w-min pb-1 sm:pb-0"
                 >Message:</label
             >
             <textarea
