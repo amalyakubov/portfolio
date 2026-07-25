@@ -3,7 +3,7 @@
   import linkedInLogoLight from "$lib/assets/InBug-White.png";
 </script>
 
-<footer class="bg-black text-white border-t-2 border-white z-0">
+<footer class="bg-black text-white border-white z-0">
   <div
     class="flex flex-col sm:flex-row justify-between py-16 sm:py-24 px-6 sm:px-10 md:px-14 lg:px-20 gap-12 sm:gap-16 max-w-7xl mx-auto w-full"
   >
