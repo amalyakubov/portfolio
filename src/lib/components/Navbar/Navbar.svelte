@@ -7,7 +7,7 @@
 </script>
 
 <nav
-  class="navbar py-4 sm:py-6 lg:py-8 flex items-center justify-between text-xs sm:text-sm lg:text-base font-['Inter']"
+  class="navbar relative z-1 py-4 sm:py-6 lg:py-8 flex items-center justify-between text-xs sm:text-sm lg:text-base"
 >
   <div class="flex items-center gap-3 sm:gap-6 lg:gap-8">
     <a
