@@ -3,9 +3,9 @@
 </script>
 
 <div
-  class="hero grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-6 md:gap-12 min-h-[70vh] md:min-h-[80vh] items-center pt-4 md:pt-0 lg:pt-70"
+  class="hero grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-6 md:gap-12 min-h-[70vh] md:min-h-[80vh] items-center pt-4"
 >
-  <div class="flex flex-col justify-center order-2 md:order-1">
+  <div class="flex flex-col justify-center">
     <h1
       class="text-[15vw] md:text-[7vw] tracking-tighter font-medium text-black leading-[0.95]"
     >

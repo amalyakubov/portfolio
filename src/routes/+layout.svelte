@@ -19,9 +19,7 @@
 </script>
 
 <div class="flex flex-col">
-  <div
-    class="px-5 sm:px-8 min-h-screen sm:max-w-7/12 md:max-w-full xl:max-w-9/12 mx-auto w-full"
-  >
+  <div class="px-5 sm:px-8 min-h-screen mx-30 max-w-full">
     <Navbar />
     {@render children()}
   </div>
