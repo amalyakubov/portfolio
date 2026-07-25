@@ -15,15 +15,6 @@ html {
     height: 100vh;
 }
 
-@theme {
-    --color-light-bg: #fcfcfa;
-    --color-dark-bg: #0b090a;
-}
-
-@utility no-scrollbar {
-    @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
-}
-
 /* View Transition Keyframes */
 @keyframes fade-in {
     from { opacity: 0; }
