@@ -14,12 +14,13 @@
     <h1
       class="text-[15vw] md:text-[7vw] tracking-tighter font-medium leading-[0.95]"
     >
-      Amal<br />Yakubov
+      Amal<br /> Yakubov
     </h1>
     <div class="mt-6 md:mt-12 max-w-full xl:max-w-9/12 space-y-3 md:space-y-4">
       <p class="text-md text-gray-200">
-        Hey, I'm Amal, a full stack developer and an aspiring ML researcher and
-        a guy who likes cool stuff and building really cool stuff.
+        Hey, I'm Amal, a full stack developer, IT support guy and an aspiring
+        data engineer and just a simple lad that likes learning and building
+        cool things.
       </p>
       <p class="text-md text-gray-200">
         Based in the best city of Europe: Warsaw, Poland.

@@ -1,6 +1,6 @@
 <script lang="ts">
-  import githubLogo from "$lib/assets/github-mark.svg";
-  import linkedInLogoLight from "$lib/assets/InBug-White.png";
+  import githubLogo from "$lib/assets/socials/github-mark.svg";
+  import linkedInLogoLight from "$lib/assets/socials/InBug-White.png";
 </script>
 
 <footer class="bg-black text-white border-white z-0">
